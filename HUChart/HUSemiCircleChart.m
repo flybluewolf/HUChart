@@ -76,7 +76,7 @@
     }
 
     CGContextRef context = UIGraphicsGetCurrentContext();
-    [[UIColor whiteColor]set];
+    [self.backgroundColor set];
     UIRectFill([self bounds]);
 
     // Draw
